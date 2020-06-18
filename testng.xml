@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<test verbose="2" preserve-order="true" name="C:/Users/alfre/IdeaProjects/DeckOfCardsAPI_TestNG">
+    <classes>
+        <class name="deckofcards_tests.NewDeck_GET">
+            <methods>
+                <include name="newDeck_happyPath"/>
+                <include name="newDeck_Post"/>
+            </methods>
+        </class>
+        <class name="deckofcards_tests.NewDeck_jockerPOST">
+            <methods>
+                <include name="newDeck_jockerPost"/>
+            </methods>
+        </class>
+        <class name="deckofcards_tests.NewDeck_jokerGET">
+            <methods>
+                <include name="newDeck_jokerGet"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
